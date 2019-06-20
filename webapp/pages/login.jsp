@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: MR.李
-  Date: 2019/6/20
-  Time: 10:05
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -19,9 +12,9 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" media="screen"
-          href="resources/login/css/style.css">
+          href="../style/login/css/reset.css">
     <link rel="stylesheet" type="text/css"
-          href="resources/login/css/reset.css">
+          href="../style/login/css/style.css">
 </head>
 <body>
 
@@ -30,7 +23,7 @@
         <div class="login-top">登录</div>
         <div class="login-center clearfix">
             <div class="login-center-img">
-                <img src="../resources/admin/login/images/name.png">
+                <img src="../style/login/images/name.png">
             </div>
             <div class="login-center-input">
                 <input type="text" id="username" name="username" value=""
@@ -41,7 +34,7 @@
         </div>
         <div class="login-center clearfix">
             <div class="login-center-img">
-                <img src="../resources/admin/login/images/password.png">
+                <img src="../style/login/images/password.png">
             </div>
             <div class="login-center-input">
                 <input type="password" id="password" name="password" value=""
@@ -52,7 +45,7 @@
         </div>
         <div class="login-center clearfix">
             <div class="login-center-img">
-                <img src="../resources/admin/login/images/password.png">
+                <img src="../style/login/images/password.png">
             </div>
             <div class="login-center-input">
                 <input style="width: 50%;" id="cpache" type="text" name=""
