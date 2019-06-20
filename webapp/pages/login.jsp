@@ -15,6 +15,16 @@
           href="../style/login/css/reset.css">
     <link rel="stylesheet" type="text/css"
           href="../style/login/css/style.css">
+    <style>
+        *{/*匹配页面所有元素，优先级最低*/
+            padding: 0px;/*上右下左四个方向*/
+            margin: 0px;
+        }
+        div{
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
 
